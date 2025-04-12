@@ -1,5 +1,12 @@
 package calculator
 
+import calculator.domain.StringCalculator
+import calculator.view.InputView
+import calculator.view.OutputView
+
 fun main() {
-    // TODO: 프로그램 구현
+    OutputView.printIntroMessage()
+    val input = InputView.input()
+    val result = StringCalculator().calculate(input)
+    OutputView.printResult(result)
 }
