@@ -1,1 +1,1 @@
-# kotlin-calculator-precourse
+# kotlin-calculator
