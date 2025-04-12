@@ -2,9 +2,7 @@ package calculator.view
 
 import camp.nextstep.edu.missionutils.Console
 
-class InputView {
+object InputView {
 
-    fun input(): String {
-        return Console.readLine()
-    }
+    fun input(): String = Console.readLine()
 }
